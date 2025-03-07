@@ -1,0 +1,95 @@
+/* Alap beállítások */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Fejléc és navigáció */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #56af56;
+    color: white;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.intró {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dafuq {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.döner {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+}
+
+.döner img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media (max-width: 800px) {
+    article{
+        gap: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+} 
+
+@media (max-width: 500px) {
+    article{
+        gap: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+}
