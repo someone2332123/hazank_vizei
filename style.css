@@ -11,6 +11,8 @@ header {
   background-color: #56af56;
   color: white;
   border-radius: 10px;
+  max-width: 96.6%;
+  margin: 20px auto;
 }
 
 nav ul {
@@ -31,11 +33,10 @@ nav ul li a {
 }
 
 .intró {
-  text-align: center;
   background: white;
   padding: 20px;
-  margin: 20px auto;
-  width: 80%;
+  margin: 20px;
+  width: 100%;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
